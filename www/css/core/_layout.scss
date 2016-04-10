@@ -1,0 +1,81 @@
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/OpenSans-CondLight.ttf);
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSans-CondBold.ttf);
+}
+
+* {
+	box-sizing: border-box;
+
+    /* no highlight on click  */
+    -webkit-tap-highlight-color: transparent;
+
+    /* no text selection */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #2a2745;
+    height: 100%;
+	font-family: OpenSansLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+
+input {
+    border-radius: 0;
+    -webkit-touch-callout: initial !important; /* iOS Safari */
+    -webkit-user-select: initial !important;   /* Chrome/Safari/Opera */
+    outline: none;
+	font-family: OpenSansLight, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+#gym-app {
+	position: relative;
+    height: 100%;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+.page-scroll {
+    height: 100%;
+    overflow-x: hidden;
+    @include scroll(y);
+}

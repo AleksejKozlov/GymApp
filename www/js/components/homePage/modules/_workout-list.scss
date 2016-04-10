@@ -1,0 +1,193 @@
+.workout-list {
+    > li {	
+		margin-bottom: 2px;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 2px;
+            height: 60px;
+            background: #39b578;
+            @include transition(all 0.25s ease);
+            @include translate3d(-2px,0,0);
+        }
+
+        &.is-active {
+            &:before {
+                @include translate3d(0,0,0);                
+            }
+        }
+	}	
+}
+
+.workout-list-header-item {
+	background: #463d69;
+	padding: 10px 15px;
+
+    .is-active & {
+        .title {
+            padding-right: 75px;
+        }
+	}
+
+    .date {
+		color: #b1a8d8;
+		display: block;
+		font-size: 15px;
+        line-height: 20px;
+	}
+
+    .title {
+		display: block;
+		text-transform: uppercase;
+		font-size: 20px;
+        line-height: 20px;
+		text-shadow: 1px 1px 3px #2a2745;
+        @include text-overflow;
+        @include transition(all 0.25s ease);
+        @include translate3d(0,0,0);
+	}
+}
+
+.workout-list-item-container {
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+	.is-active & .swiper-pagination-progress {
+        @include animation(progressbar-animation 0.25s);
+	}
+    .swiper-pagination-progress {
+        width: 101%;
+        height: 2px;
+        left: 0;
+        top: 0;
+        background: none;
+
+        .swiper-pagination-progressbar {
+            background: #39b578;
+        }
+    }
+    
+    .swiper-slide {
+        &:first-child {
+            width: 175px !important;
+        }
+
+        width: 100%;
+    }
+
+	.box-container {
+		background: #463d69;
+		margin-top: 2px;
+        width: 100%;
+
+        .box-container-animation {
+			@include animation(box-container-animation 0.25s);
+        }
+
+		&.is-small {
+            display: block;
+			height: 134px;
+			position: relative;
+
+			i {
+				color: #508ec0;
+				position: absolute;
+				top: 46px;
+				left: 25px;
+				font-size: 25px;
+			}
+
+			.value {
+				font-size: 35px;
+				position: absolute;
+				top: 39px;
+				left: 73px;
+			}
+
+			.title {
+				font-size: 12px;
+				text-transform: uppercase;
+				color: #508ec0;
+				position: absolute;
+				top: 86px;
+				left: 72px;
+			}
+		}
+
+		&.is-large {
+            display: inline-block;
+            vertical-align: top;
+			height: 270px;
+			padding: 15px;
+
+			.exercise-name {
+				font-size: 20px;
+                line-height: 15px;
+				display: block;
+                text-transform: capitalize;
+                position: relative;
+                z-index: 1;
+			}
+		}
+	}
+
+    .set-list {
+        height: 225px;
+        overflow-y: auto;
+    }
+}
+
+.workout-list-btn-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    @include transition(all 0.5s ease);
+    @include translate3d(90px,0,0);
+
+    .is-active & {
+        @include translate3d(0,0,0);
+	}
+
+    .btn-container {
+        width: 45px;
+        line-height: 60px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+        color: #b1a8d8;
+
+        &:active {
+            color: #fff;
+            position: relative;
+        }
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}
+
+// animations
+@-webkit-keyframes progressbar-animation {
+    0%   { @include translate3d(-100px,0,0); }
+    100% { @include translate3d(-1px,0,0); }
+}
+@keyframes progressbar-animation {
+    0%   { @include translate3d(-100px,0,0); }
+    100% { @include translate3d(-1px,0,0); }
+}
+
+@-webkit-keyframes box-container-animation {
+    0%   { opacity: 0; @include translate3d(-15px,0,0); }
+    100% { opacity: 1; @include translate3d(0,0,0); }
+}
+@keyframes box-container-animation {
+    0%   { opacity: 0; @include translate3d(-15px,0,0); }
+    100% { opacity: 1; @include translate3d(0,0,0); }
+}

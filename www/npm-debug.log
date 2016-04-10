@@ -1,0 +1,159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-addons-css-transition-group' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json gym-app@0.0.1 No repository field.
+6 warn package.json gym-app@0.0.1 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'react-addons-css-transition-group', null ]
+9 verbose cache add name=undefined spec="react-addons-css-transition-group" args=["react-addons-css-transition-group",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'react-addons-css-transition-group',
+10 verbose parsed url   path: 'react-addons-css-transition-group',
+10 verbose parsed url   href: 'react-addons-css-transition-group' }
+11 silly lockFile 173e9f40-eact-addons-css-transition-group react-addons-css-transition-group
+12 verbose lock react-addons-css-transition-group C:\Users\Ati\AppData\Roaming\npm-cache\173e9f40-eact-addons-css-transition-group.lock
+13 silly lockFile 173e9f40-eact-addons-css-transition-group react-addons-css-transition-group
+14 silly lockFile 173e9f40-eact-addons-css-transition-group react-addons-css-transition-group
+15 verbose addNamed [ 'react-addons-css-transition-group', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile ec6401f5-eact-addons-css-transition-group react-addons-css-transition-group@
+18 verbose lock react-addons-css-transition-group@ C:\Users\Ati\AppData\Roaming\npm-cache\ec6401f5-eact-addons-css-transition-group.lock
+19 silly addNameRange { name: 'react-addons-css-transition-group',
+19 silly addNameRange   range: '*',
+19 silly addNameRange   hasData: false }
+20 verbose url raw react-addons-css-transition-group
+21 verbose url resolving [ 'https://registry.npmjs.org/',
+21 verbose url resolving   './react-addons-css-transition-group' ]
+22 verbose url resolved https://registry.npmjs.org/react-addons-css-transition-group
+23 info trying registry request attempt 1 at 19:14:17
+24 verbose etag "CPH66GZFIY75S6BMV3XFDM7SZ"
+25 http GET https://registry.npmjs.org/react-addons-css-transition-group
+26 http 200 https://registry.npmjs.org/react-addons-css-transition-group
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"4QEYOT7Z1EJRFBAAQS8YV0TJB"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '19703',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Wed, 06 Apr 2016 16:14:12 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '98',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-ams4121-AMS',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1459959252.834403,VS0,VE0',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly addNameRange number 2 { name: 'react-addons-css-transition-group',
+28 silly addNameRange   range: '*',
+28 silly addNameRange   hasData: true }
+29 silly addNameRange versions [ 'react-addons-css-transition-group',
+29 silly addNameRange   [ '0.14.0-beta1',
+29 silly addNameRange     '0.14.0-beta2',
+29 silly addNameRange     '0.14.0-beta3',
+29 silly addNameRange     '0.14.0-rc1',
+29 silly addNameRange     '0.14.0',
+29 silly addNameRange     '0.14.1',
+29 silly addNameRange     '0.14.2',
+29 silly addNameRange     '0.14.3',
+29 silly addNameRange     '0.14.4',
+29 silly addNameRange     '0.14.5',
+29 silly addNameRange     '0.14.6',
+29 silly addNameRange     '0.15.0-alpha.1',
+29 silly addNameRange     '0.14.7',
+29 silly addNameRange     '15.0.0-rc.1',
+29 silly addNameRange     '15.0.0-rc.2',
+29 silly addNameRange     '0.14.8' ] ]
+30 verbose addNamed [ 'react-addons-css-transition-group', '0.14.8' ]
+31 verbose addNamed [ '0.14.8', '0.14.8' ]
+32 silly lockFile da0ce690-dons-css-transition-group-0-14-8 react-addons-css-transition-group@0.14.8
+33 verbose lock react-addons-css-transition-group@0.14.8 C:\Users\Ati\AppData\Roaming\npm-cache\da0ce690-dons-css-transition-group-0-14-8.lock
+34 silly lockFile da0ce690-dons-css-transition-group-0-14-8 react-addons-css-transition-group@0.14.8
+35 silly lockFile da0ce690-dons-css-transition-group-0-14-8 react-addons-css-transition-group@0.14.8
+36 silly lockFile ec6401f5-eact-addons-css-transition-group react-addons-css-transition-group@
+37 silly lockFile ec6401f5-eact-addons-css-transition-group react-addons-css-transition-group@
+38 silly resolved [ { name: 'react-addons-css-transition-group',
+38 silly resolved     version: '0.14.8',
+38 silly resolved     main: 'index.js',
+38 silly resolved     repository: { type: 'git', url: 'git://github.com/facebook/react' },
+38 silly resolved     keywords: [ 'react', 'react-addon' ],
+38 silly resolved     license: 'BSD-3-Clause',
+38 silly resolved     dependencies: {},
+38 silly resolved     peerDependencies: { react: '^0.14.8' },
+38 silly resolved     readme: '# react-addons-css-transition-group\n\nThis package provides the React CSSTransitionGroup add-on.\n\nSee <https://facebook.github.io/react/docs/animation.html> for more information.',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     description: 'This package provides the React CSSTransitionGroup add-on.',
+38 silly resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+38 silly resolved     _id: 'react-addons-css-transition-group@0.14.8',
+38 silly resolved     _from: 'react-addons-css-transition-group@' } ]
+39 info install react-addons-css-transition-group@0.14.8 into C:\wamp\www\PhoneGap-GymApp\GymApp\www
+40 info installOne react-addons-css-transition-group@0.14.8
+41 info C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group unbuild
+42 info preuninstall react-addons-css-transition-group@0.14.8
+43 info uninstall react-addons-css-transition-group@0.14.8
+44 verbose true,C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules,C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules unbuild react-addons-css-transition-group@0.14.8
+45 info postuninstall react-addons-css-transition-group@0.14.8
+46 verbose tar unpack C:\Users\Ati\AppData\Roaming\npm-cache\react-addons-css-transition-group\0.14.8\package.tgz
+47 silly lockFile 59c1d61e-eact-addons-css-transition-group tar://C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group
+48 verbose lock tar://C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group C:\Users\Ati\AppData\Roaming\npm-cache\59c1d61e-eact-addons-css-transition-group.lock
+49 silly lockFile 2886c3f1-nsition-group-0-14-8-package-tgz tar://C:\Users\Ati\AppData\Roaming\npm-cache\react-addons-css-transition-group\0.14.8\package.tgz
+50 verbose lock tar://C:\Users\Ati\AppData\Roaming\npm-cache\react-addons-css-transition-group\0.14.8\package.tgz C:\Users\Ati\AppData\Roaming\npm-cache\2886c3f1-nsition-group-0-14-8-package-tgz.lock
+51 silly gunzTarPerm modes [ '755', '644' ]
+52 silly gunzTarPerm extractEntry package.json
+53 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+54 silly gunzTarPerm extractEntry README.md
+55 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+56 silly gunzTarPerm extractEntry LICENSE
+57 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+58 silly gunzTarPerm extractEntry index.js
+59 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry PATENTS
+61 silly gunzTarPerm modified mode [ 'PATENTS', 438, 420 ]
+62 silly lockFile 59c1d61e-eact-addons-css-transition-group tar://C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group
+63 silly lockFile 59c1d61e-eact-addons-css-transition-group tar://C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group
+64 silly lockFile 2886c3f1-nsition-group-0-14-8-package-tgz tar://C:\Users\Ati\AppData\Roaming\npm-cache\react-addons-css-transition-group\0.14.8\package.tgz
+65 silly lockFile 2886c3f1-nsition-group-0-14-8-package-tgz tar://C:\Users\Ati\AppData\Roaming\npm-cache\react-addons-css-transition-group\0.14.8\package.tgz
+66 info preinstall react-addons-css-transition-group@0.14.8
+67 verbose readDependencies using package.json deps
+68 verbose readDependencies using package.json deps
+69 silly resolved []
+70 verbose about to build C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group
+71 info build C:\wamp\www\PhoneGap-GymApp\GymApp\www\node_modules\react-addons-css-transition-group
+72 verbose linkStuff [ false,
+72 verbose linkStuff   false,
+72 verbose linkStuff   false,
+72 verbose linkStuff   'C:\\wamp\\www\\PhoneGap-GymApp\\GymApp\\www\\node_modules' ]
+73 info linkStuff react-addons-css-transition-group@0.14.8
+74 verbose linkBins react-addons-css-transition-group@0.14.8
+75 verbose linkMans react-addons-css-transition-group@0.14.8
+76 verbose rebuildBundles react-addons-css-transition-group@0.14.8
+77 info install react-addons-css-transition-group@0.14.8
+78 info postinstall react-addons-css-transition-group@0.14.8
+79 verbose readDependencies using package.json deps
+80 verbose already installed skipping react@^0.14.8 C:\wamp\www\PhoneGap-GymApp\GymApp\www
+81 silly resolved []
+82 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+82 error peerinvalid Peer react-dom@0.14.7 wants react@^0.14.7
+82 error peerinvalid Peer react-addons-css-transition-group@0.14.8 wants react@^0.14.8
+83 error System Windows_NT 6.2.9200
+84 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react-addons-css-transition-group"
+85 error cwd C:\wamp\www\PhoneGap-GymApp\GymApp\www
+86 error node -v v0.10.21
+87 error npm -v 1.3.11
+88 error code EPEERINVALID
+89 verbose exit [ 1, true ]

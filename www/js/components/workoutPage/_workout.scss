@@ -1,0 +1,19 @@
+@import "modules/_weekday-list.scss";
+@import "modules/_exercise-list.scss";
+
+.workout-page {
+    padding: 60px 0;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #b1a8d8;
+        padding: 5px 15px;
+        margin: 0;
+    }
+
+    .no-data {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+}

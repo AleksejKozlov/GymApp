@@ -1,0 +1,105 @@
+.set-list {
+	> li {
+		display: block;
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.set-item {
+		position: relative;
+		margin-right: 20px;
+        line-height: 30px;
+        height: 30px;
+        background: #352d4e;
+        border-radius: 15px;
+
+		&.is-finished {			
+            .step {
+				background: #2fa069;
+			}
+
+			.weight {
+				color: #fff;
+			}
+		}
+
+		.step {
+            position: relative;
+            z-index: 2;
+			display: inline-block;
+			background: #574c7b;
+			width: 30px;
+            height: 30px;
+			text-align: center;
+            border-radius: 50%;
+            @include transition(background 0.25s ease);
+            @include translate3d(0,0,0);
+		}
+
+        input {
+            border: none;
+            height: 30px;
+            font-size: 16px;
+        }
+
+		.weight {
+            position: absolute;
+            left: 0;
+            z-index: 1;
+            color: #b1a8d8;
+            background: none;
+            width: 100%;
+            padding: 7px 15px 7px 40px;
+            @include transition(color 0.25s ease);
+            @include translate3d(0,0,0);
+		}
+
+		.reps {
+			position: absolute;
+			right: -20px;
+            color: #fff;
+            background: none;
+            width: 20px;
+            padding: 0;
+            text-align: right;
+		}
+	}
+
+    .animation-container {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 15px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 15px;
+            height: 100%;
+            background: #463d69;
+            z-index: 1;
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: #38b578;
+            transform-origin: left;
+            @include transition(width 0.25s ease);
+            @include translate3d(0,0,0);
+            border-radius: 15px;
+        }
+    }
+    .is-finished .animation-container {
+        &:after {
+            width: 100%;
+        }
+    }
+}

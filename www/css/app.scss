@@ -1,0 +1,14 @@
+@import "libs/swiper.min.css";
+
+@import "core/_mixins.scss";
+@import "core/_icons.scss";
+@import "core/_layout.scss";
+
+@import "../js/components/shared/_input-header.scss";
+@import "../js/components/shared/_footer.scss";
+@import "../js/components/shared/_set-list.scss";
+
+@import "../js/components/homepage/_home.scss";
+@import "../js/components/workoutPage/_workout.scss";
+@import "../js/components/exercisePage/_exercise.scss";
+@import "../js/components/progressPage/_progress.scss";

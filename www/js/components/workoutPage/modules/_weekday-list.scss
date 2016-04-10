@@ -1,0 +1,28 @@
+.weekday-list {
+    background: #463d69;
+    
+    li {
+        width: 14.2857%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .weekday-item {
+        font-size: 15px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        line-height: 36px;
+        color: #b1a8d8;
+
+        &.is-selected {
+            border-color: #fff;
+            color: #fff;
+        }
+    }
+}

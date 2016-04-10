@@ -1,0 +1,29 @@
+.intro-container {
+    padding: 25px 0;
+    margin-bottom: 20px;
+	text-align: center;
+
+    &.is-centered {
+        height: 120px;
+        position: absolute;
+        top: 50%;
+        margin: -70px 0 0;
+        width: 100%;
+    }
+
+	h1 {
+		font-size: 15px;
+		margin: 10px 0 0;
+        font-weight: normal;
+	}
+
+    h2 {
+		font-size: 15px;
+		margin: 10px 0 0;
+        font-weight: normal;
+	}
+
+	em {
+		font-style: normal;
+	}
+}
